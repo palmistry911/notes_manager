@@ -1,0 +1,5 @@
+notemanager/db.sqlite3/
+.venv
+.idea
+__pycache__
+.env

@@ -1,0 +1,12 @@
+{% extends 'base.html' %}
+
+{% block title %}Список заметок{% endblock %}
+
+{% block content %}
+<h2>Все заметки</h2>
+<ul>
+    {% for note in notes %}
+    <li>{{ note.title }} - {{ note.created_at }}</li>
+    {% endfor %}
+</ul>
+{% endblock %}
